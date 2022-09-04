@@ -1,0 +1,32 @@
+.home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.first-player {
+    color: red;
+}
+
+.second-player {
+    color: yellow;
+}
+
+.add-points-button {
+    text-align: center;
+    background-color: #282c34;
+    border-radius: 20px;
+    color: #fff;
+    transition: background-color 1s;
+    margin: 10px;
+}
+
+.add-points-button:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+    color: #282c34;
+}
+
+.main {
+    background-color: green;
+}
